@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClInclude Include="curcle.h" />
     <ClInclude Include="ellipse.h" />
+    <ClInclude Include="negative_value.h" />
     <ClInclude Include="rectangle.h" />
     <ClInclude Include="shape.h" />
     <ClInclude Include="square.h" />
@@ -136,6 +137,7 @@
   <ItemGroup>
     <ClCompile Include="curcle.cpp" />
     <ClCompile Include="ellipse.cpp" />
+    <ClCompile Include="negative_value.cpp" />
     <ClCompile Include="rectangle.cpp" />
     <ClCompile Include="shape.cpp" />
     <ClCompile Include="Source.cpp" />

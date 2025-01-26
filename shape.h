@@ -1,17 +1,18 @@
 #pragma once
 #include <iostream>
 #include <vector>
+#include "negative_value.h"
 
 using namespace std;
 
 class shape
 {
-protected:
+public:
 	//координаты
 	int x;
 	int y;
-public:
-	shape() = default;
+
+	shape()noexcept = default;
 
 	shape(int x_p, int y_p)noexcept : x{x_p}, y{y_p}{}
 
